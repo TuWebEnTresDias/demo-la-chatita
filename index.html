@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="La Chatita Cafetería — Café de especialidad en Palermo Norte. Cookies, medialunas y el mejor ambiente para tu momento. El Salvador 4068, Buenos Aires.">
+    <meta name="keywords" content="café de especialidad, Palermo Norte, Buenos Aires, cookies, medialunas, brunch, La Chatita">
+    <meta property="og:title" content="La Chatita Cafetería — Café de Especialidad en Palermo Norte">
+    <meta property="og:description" content="El lugar donde el café se toma con calma. Especialidades, bakery artesanal y un rincón que se siente como tuyo.">
+    <meta property="og:type" content="website">
+    <title>La Chatita Cafetería — Café de Especialidad | Palermo Norte</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header__inner">
+            <a href="#hero" class="header__logo">
+                <span class="header__logo-name">La Chatita</span>
+                <span class="header__logo-tagline">Café de Especialidad</span>
+            </a>
+            <nav class="header__nav" id="mainNav">
+                <a href="#diferenciales" class="header__nav-link">Nosotros</a>
+                <a href="#menu" class="header__nav-link">Menú</a>
+                <a href="#estrella" class="header__nav-link">Estrella</a>
+                <a href="#galeria" class="header__nav-link">Galería</a>
+                <a href="#momentos" class="header__nav-link">Momentos</a>
+                <a href="#contacto" class="header__nav-link">Contacto</a>
+            </nav>
+            <a href="https://wa.me/5491123004181?text=Hola! Quiero hacer un pedido o reservar en La Chatita" class="header__cta" target="_blank" rel="noopener">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                WhatsApp
+            </a>
+            <button class="header__hamburger" id="hamburger" aria-label="Menú de navegación">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Nav Overlay -->
+    <div class="mobile-nav" id="mobileNav">
+        <nav class="mobile-nav__links">
+            <a href="#diferenciales" class="mobile-nav__link">Nosotros</a>
+            <a href="#menu" class="mobile-nav__link">Menú</a>
+            <a href="#estrella" class="mobile-nav__link">Estrella</a>
+            <a href="#galeria" class="mobile-nav__link">Galería</a>
+            <a href="#momentos" class="mobile-nav__link">Momentos</a>
+            <a href="#contacto" class="mobile-nav__link">Contacto</a>
+        </nav>
+    </div>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+        <div class="hero__bg">
+            <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl7_Snyg80hkOiOjQQJABRp4RRPlFJAs17oRn62Sl64fhfHRJLNKA_d94cxKfF1iUdLEC5pdjoR0Z9LvfcJ3mdC6uW7dTiHj3N5ZiMOOzQ4MvQ4yB-ODwx-IIAL-hRDZY04uro=s1360-w1360-h1020-rw" alt="La Chatita Cafetería - Entrada" class="hero__bg-img">
+        </div>
+        <div class="hero__overlay"></div>
+        <div class="hero__content">
+            <p class="hero__kicker animate-in">Café de Especialidad · Palermo Norte</p>
+            <h1 class="hero__title animate-in">
+                <span class="hero__title-line">El café se toma</span>
+                <span class="hero__title-line hero__title-line--accent">con calma.</span>
+            </h1>
+            <p class="hero__subtitle animate-in">Un rincón de Palermo donde cada taza tiene historia y cada cookie, fans. Vení a quedarte un rato.</p>
+            <div class="hero__actions animate-in">
+                <a href="#menu" class="btn btn--primary">Ver el menú</a>
+                <a href="https://wa.me/5491123004181?text=Hola! Quiero hacer un pedido" class="btn btn--secondary" target="_blank" rel="noopener">Hacer un pedido</a>
+            </div>
+        </div>
+        <div class="hero__scroll-hint animate-in">
+            <span>Scroll</span>
+            <div class="hero__scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Diferenciales -->
+    <section class="diferenciales" id="diferenciales">
+        <div class="container">
+            <div class="section-header animate-in">
+                <span class="section-header__kicker">La Chatita</span>
+                <h2 class="section-header__title">No somos una cafetería más.</h2>
+            </div>
+            <div class="diferenciales__grid">
+                <div class="diferencial animate-in">
+                    <div class="diferencial__icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <circle cx="24" cy="24" r="23" stroke="var(--mint-dark)" stroke-width="1"/>
+                            <path d="M18 16C18 16 20 20 24 20C28 20 30 16 30 16" stroke="var(--mint-dark)" stroke-width="1.5" stroke-linecap="round"/>
+                            <path d="M16 24H32" stroke="var(--mint-dark)" stroke-width="1.5" stroke-linecap="round"/>
+                            <path d="M18 28H30" stroke="var(--mint-dark)" stroke-width="1.5" stroke-linecap="round"/>
+                            <path d="M20 32H28" stroke="var(--mint-dark)" stroke-width="1.5" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="diferencial__title">Tueste propio</h3>
+                    <p class="diferencial__text">Nuestro café viene de Café Z, seleccionado y tostado para extraer lo mejor de cada origen. Probamos cada lote antes de que llegue a tu taza.</p>
+                </div>
+                <div class="diferencial animate-in">
+                    <div class="diferencial__icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <circle cx="24" cy="24" r="23" stroke="var(--mint-dark)" stroke-width="1"/>
+                            <path d="M24 14V22L28 26" stroke="var(--mint-dark)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle cx="24" cy="24" r="10" stroke="var(--mint-dark)" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+                    <h3 class="diferencial__title">Bakery artesanal</h3>
+                    <p class="diferencial__text">Cookies, croissants, medialunas y budines horneados en el día. La carrot cake es húmeda, la red velvet adictiva, y las medialunas crujientes como deben ser.</p>
+                </div>
+                <div class="diferencial animate-in">
+                    <div class="diferencial__icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <circle cx="24" cy="24" r="23" stroke="var(--mint-dark)" stroke-width="1"/>
+                            <path d="M16 32C16 32 18 28 24 28C30 28 32 32 32 32" stroke="var(--mint-dark)" stroke-width="1.5" stroke-linecap="round"/>
+                            <circle cx="24" cy="20" r="5" stroke="var(--mint-dark)" stroke-width="1.5"/>
+                            <path d="M14 18L18 22" stroke="var(--mint-dark)" stroke-width="1.5" stroke-linecap="round"/>
+                            <path d="M34 18L30 22" stroke="var(--mint-dark)" stroke-width="1.5" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="diferencial__title">Atención que se nota</h3>
+                    <p class="diferencial__text">Los dueños están en la barra. Te preguntan a qué temperatura querés el café. Acá no sos un número — sos el de al lado que siempre vuelve.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menú -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="section-header animate-in">
+                <span class="section-header__kicker">Nuestro menú</span>
+                <h2 class="section-header__title">Elegí tu momento.</h2>
+                <p class="section-header__sub">10% de descuento en efectivo. Hacé tu pedido en caja.</p>
+            </div>
+            
+            <div class="menu__tabs animate-in" id="menuTabs">
+                <button class="menu__tab menu__tab--active" data-tab="cafes">Cafés</button>
+                <button class="menu__tab" data-tab="bebidas">Bebidas</button>
+                <button class="menu__tab" data-tab="desayunos">Desayunos</button>
+                <button class="menu__tab" data-tab="sandwiches">Sándwiches</button>
+                <button class="menu__tab" data-tab="bakery">Bakery</button>
+                <button class="menu__tab" data-tab="cookies">Cookies</button>
+            </div>
+
+            <div class="menu__content">
+                <!-- Cafés -->
+                <div class="menu__category menu__category--active" data-category="cafes">
+                    <div class="menu__subcategory">
+                        <h3 class="menu__subcategory-title">Preparados Calientes</h3>
+                        <div class="menu__items">
+                            <div class="menu__item">
+                                <span class="menu__item-name">Espresso</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$3.400</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Cortado</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$4.000</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Flat White</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$4.500</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Cappuccino</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$4.300</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Magic</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$4.300</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Latte doble</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$4.700</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu__subcategory">
+                        <h3 class="menu__subcategory-title">Especiales Calientes</h3>
+                        <div class="menu__items">
+                            <div class="menu__item">
+                                <span class="menu__item-name">Mocca</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$5.000</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Nute Latte</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$5.400</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Pistachino</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$4.400</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Honey Latte</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$4.300</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Caramel Latte</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$4.900</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Chocolate Caliente</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$4.600</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu__subcategory">
+                        <h3 class="menu__subcategory-title">Preparados Fríos</h3>
+                        <div class="menu__items">
+                            <div class="menu__item">
+                                <span class="menu__item-name">Iced Coffee</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$4.000</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Iced Flat White</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$4.700</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Cold Brew</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$4.300</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Espresso Tonic</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$4.500</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Affogato Chatita</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$6.500</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Affogato Baileys</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$6.800</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu__subcategory">
+                        <h3 class="menu__subcategory-title">Filtrados</h3>
+                        <div class="menu__items">
+                            <div class="menu__item">
+                                <span class="menu__item-name">Chemex (2 personas)</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$8.600</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">V60</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$6.900</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Aeropress</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$6.900</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Matcha Latte</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$4.900</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bebidas -->
+                <div class="menu__category" data-category="bebidas">
+                    <div class="menu__subcategory">
+                        <h3 class="menu__subcategory-title">Naturales 500ml</h3>
+                        <div class="menu__items">
+                            <div class="menu__item">
+                                <span class="menu__item-name">Jugo de naranja exprimido</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$4.800</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Limonada menta jengibre</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$4.200</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Pomelada de hibiscus</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$4.300</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu__subcategory">
+                        <h3 class="menu__subcategory-title">Licuados 500ml</h3>
+                        <div class="menu__items">
+                            <div class="menu__item">
+                                <span class="menu__item-name">Cocada</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$6.200</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Cinnamon Coffee</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$6.500</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Lemon Fresh</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$6.000</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Mango, naranja y frutillas</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$5.500</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Leche, banana y arándanos</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$5.500</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Kiwi, manzana verde y jengibre</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$5.500</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Desayunos -->
+                <div class="menu__category" data-category="desayunos">
+                    <div class="menu__subcategory">
+                        <h3 class="menu__subcategory-title">Combos de Desayuno</h3>
+                        <p class="menu__subcategory-desc">Café a elección y jugo de 500 mL — ¡súper rico y abundante!</p>
+                        <div class="menu__items">
+                            <div class="menu__item">
+                                <span class="menu__item-name">Classic</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$7.800</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Country</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$9.200</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Sweet</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$9.800</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Avocado</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$11.400</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Chipa</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$12.600</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Rústico Focaccia</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$18.000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu__subcategory">
+                        <h3 class="menu__subcategory-title">Tostones & Bowls</h3>
+                        <div class="menu__items">
+                            <div class="menu__item">
+                                <span class="menu__item-name">Avocado Toast</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$11.400</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Bowl Yogurt</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$10.700</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Bowl de frutas con miel</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$8.400</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Veggie</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$17.800</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sándwiches -->
+                <div class="menu__category" data-category="sandwiches">
+                    <div class="menu__subcategory">
+                        <h3 class="menu__subcategory-title">Croissants & Sándwiches</h3>
+                        <div class="menu__items">
+                            <div class="menu__item">
+                                <span class="menu__item-name">Croissant JyQ</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$6.200</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Croissant Delicioso</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$6.900</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Croissant Avocado</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$6.500</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Tostado La Chatita</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$15.200</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bakery -->
+                <div class="menu__category" data-category="bakery">
+                    <div class="menu__subcategory">
+                        <h3 class="menu__subcategory-title">Recién horneados</h3>
+                        <div class="menu__items">
+                            <div class="menu__item">
+                                <span class="menu__item-name">Croissant</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$3.200</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Pain au chocolat</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$3.500</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Medialunas</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$2.600</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Scon de queso azul</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$3.600</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Chipa</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$3.200</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Brownie con nueces</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$4.700</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu__subcategory">
+                        <h3 class="menu__subcategory-title">Alfajores</h3>
+                        <div class="menu__items">
+                            <div class="menu__item">
+                                <span class="menu__item-name">Marplatense</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$4.300</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Sablée choco blanco</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$4.000</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Dulce de leche XL</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$4.500</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cookies -->
+                <div class="menu__category" data-category="cookies">
+                    <div class="menu__subcategory">
+                        <h3 class="menu__subcategory-title">Cookies de la casa</h3>
+                        <div class="menu__items">
+                            <div class="menu__item menu__item--highlight">
+                                <span class="menu__item-name">Cookie Red Velvet</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">★★★</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Cookie Nutella</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$4.300</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Cookie Vainilla</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$3.500</span>
+                            </div>
+                            <div class="menu__item">
+                                <span class="menu__item-name">Cookie Pistacho</span>
+                                <span class="menu__item-dots"></span>
+                                <span class="menu__item-price">$3.700</span>
+                            </div>
+                            <p class="menu__note">Preguntá variedad del día en caja</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu__footer animate-in">
+                <p>¿No encontrás lo que buscás?</p>
+                <a href="https://wa.me/5491123004181?text=Hola! Quiero consultar por el menú completo de La Chatita" class="btn btn--outline" target="_blank" rel="noopener">Consultá por WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Estrella -->
+    <section class="estrella" id="estrella">
+        <div class="estrella__inner">
+            <div class="estrella__content animate-in">
+                <span class="estrella__kicker">La favorita</span>
+                <h2 class="estrella__title">La Cookie Red Velvet.</h2>
+                <p class="estrella__text">No es una cookie común. Es densa, húmeda, con ese color rojo intenso que no podés ignorar. El frosting tiene las mismas especias que la carrot cake — una combinación que te atrapa. Pedila con un flat white y vas a entender por qué todos piden repetir.</p>
+                <div class="estrella__rating">
+                    <span class="estrella__rating-score">4.4</span>
+                    <div class="estrella__rating-stars">★★★★½</div>
+                    <span class="estrella__rating-count">451 reseñas en Google</span>
+                </div>
+            </div>
+            <div class="estrella__image animate-in">
+                <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlZ-FLc0aeoUvDyo13sDMxCfIg8R_kHYswv1y3wvTZLYgm2QGeTXr8DEJZqrcpKHhYXEXwHm55BqywX-c6f9Pu0K25Xb0Alpekf1yFFRFHb9VwfA8tzOXtbANzrdbNW3DY6gPOv=s1360-w1360-h1020-rw" alt="Cookies artesanales de La Chatita" class="estrella__img" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería -->
+    <section class="galeria" id="galeria">
+        <div class="container">
+            <div class="section-header animate-in">
+                <span class="section-header__kicker">El espacio</span>
+                <h2 class="section-header__title">Así se siente La Chatita.</h2>
+            </div>
+            <div class="galeria__grid">
+                <div class="galeria__item galeria__item--wide animate-in">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkrEZA5l7fAJf06AX0jYx1jeH5DVVNtwtERpN40RAnqA6YmW1pd8QDotA71gatgGxgVHTWaJXD2UV0Xac8lW0lzvDp-N4DgzuBp7FJUdBUIKFGE3JRHQT0KJN16jN9YN_fkxE5w=s1360-w1360-h1020-rw" alt="Entrada de La Chatita" loading="lazy">
+                    <div class="galeria__overlay">
+                        <span>La entrada que te invita a quedarte</span>
+                    </div>
+                </div>
+                <div class="galeria__item animate-in">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkpd2eSu7b0SPzc2jCSKRey4Zd_mHXgPrRojKdlyzWYXBp0JUNSDrCWsj88Dc91WSQ2QLFehzR-ztVOqhrzGNGIgumLTJaVKnAstAv8YYmZwS-HwKqPMB0-6qbCkkTFaUdUh5qZbJl4oTd4=s1360-w1360-h1020-rw" alt="Café con facturas" loading="lazy">
+                    <div class="galeria__overlay">
+                        <span>El desayuno que merecés</span>
+                    </div>
+                </div>
+                <div class="galeria__item animate-in">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn3XODn8wzXazpRf2z-4OZuuPIa9JUnGApTGY2PEKPyIocNanPZ3SMPX0u3LiB4mep2O4809dJ_nUog3osY_0mgXjoY-e7LyG-uLpCs__45udnkBdVv8u2uT_7AQ_NC0dBcDX45mWciPIY=s1360-w1360-h1020-rw" alt="La barra de La Chatita" loading="lazy">
+                    <div class="galeria__overlay">
+                        <span>Donde se prepara la magia</span>
+                    </div>
+                </div>
+                <div class="galeria__item animate-in">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmU8gSBEC94v3b5GiQ65DaIGaA8y92UF2TwkvM0OlmXNhVf_esd0L438L1iIa-VlS0XgqWlKfsa4cKIBV-5IeFviiUcQzy3yewwSmXGT8MAUV_kH_77Ah9_wMVugfMqe9SNZRVlZw=s1360-w1360-h1020-rw" alt="Pomelada con palta" loading="lazy">
+                    <div class="galeria__overlay">
+                        <span>Fresco, colorido, tuyo</span>
+                    </div>
+                </div>
+                <div class="galeria__item galeria__item--tall animate-in">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnlN5vzkMIrr4KcHATDi2aQ0OCxugkGjg0gmGpfOKzHCMnGsDD08GQCyQK29IUCcYNxmh-ZB4xcccDOEx6Q17G3_skKh3071YKR-igSfd2W2VECEmkNKHkuVuc_lw2XYXMr57g=s1360-w1360-h1020-rw" alt="La Chatita desde afuera" loading="lazy">
+                    <div class="galeria__overlay">
+                        <span>Palermo Norte tiene nuevo punto</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Momentos -->
+    <section class="momentos" id="momentos">
+        <div class="container">
+            <div class="section-header animate-in">
+                <span class="section-header__kicker">Tu momento</span>
+                <h2 class="section-header__title">Elegí cuándo venir.</h2>
+            </div>
+            <div class="momentos__grid">
+                <div class="momento animate-in">
+                    <div class="momento__image">
+                        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm5oS5ECHXZH0gRd2Jco8WvdMl34ObTwBd_iMuzUAtZAAl8mrybKASzhgo59E0Fz2Ve2WgwZF7XS1kCIEiCZID5BciE9eFy9P7pxzkCalB4SgxBNRoa55ArSSRr73OMeHFMWdieadqYpKSS=s1360-w1360-h1020-rw" alt="Desayuno en La Chatita" loading="lazy">
+                    </div>
+                    <div class="momento__content">
+                        <h3 class="momento__title">El desayuno de la semana</h3>
+                        <p class="momento__text">Lunes a viernes, de 8 a 11. Tu combo favorito con café recién hecho, jugo exprimido y algo de bakery. El momento para arrancar el día con energía.</p>
+                        <span class="momento__time">8:00 – 11:00 · Lun a Vie</span>
+                    </div>
+                </div>
+                <div class="momento animate-in">
+                    <div class="momento__image">
+                        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkVd_8ytKTkeYLbTaKG8PDa1rG1W-2zpRYlOQUPQQwbqUvds-Hu9N3o8uT2hvhCkvWWWhAi3l8ec9UzwXMekFK1OMjrgEXdmbxNJwGdv06mSldt3ie-Bk9rYtRHt4G5x9hPQu5qqJts0i-x=s1360-w1360-h1020-rw" alt="La barra de La Chatita" loading="lazy">
+                    </div>
+                    <div class="momento__content">
+                        <h3 class="momento__title">La merienda con amigas</h3>
+                        <p class="momento__text">Sobremesas largas, cookies compartidas y el mejor café de especialidad. Traé a tus amigas, sentate en la terraza y no mires la hora.</p>
+                        <span class="momento__time">15:00 – 18:00 · Todos los días</span>
+                    </div>
+                </div>
+                <div class="momento animate-in">
+                    <div class="momento__image">
+                        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlJEEn5hpsrXJWOxGQkA-gJtJqmUAcYEs-PcbojbtQ_bR04qEJwnLAZXF0mSPqWtP9RMPi6A7jRBx1ZM1Jluk-oMtQXoVxdmStMQcKOWDFdBx4xFj0d8idDry_xEfDw81ZNvkNV=s1360-w1360-h1020-rw" alt="Mesa con comida" loading="lazy">
+                    </div>
+                    <div class="momento__content">
+                        <h3 class="momento__title">El brunch del domingo</h3>
+                        <p class="momento__text">Sábados y domingos desde las 10. Pedí el Rústico Focaccia o el Tostado La Chatita, un affogato Baileys y ponete en modo relax total.</p>
+                        <span class="momento__time">10:00 – 20:00 · Sáb y Dom</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="testimonios" id="testimonios">
+        <div class="container">
+            <div class="section-header animate-in">
+                <span class="section-header__kicker">Lo que dicen</span>
+                <h2 class="section-header__title">Nuestros vecinos opinan.</h2>
+                <div class="section-header__rating">
+                    <span>4.4</span>
+                    <span class="section-header__stars">★★★★½</span>
+                    <span>· 451 reseñas en Google</span>
+                </div>
+            </div>
+            <div class="testimonios__grid">
+                <div class="testimonio animate-in">
+                    <div class="testimonio__header">
+                        <div class="testimonio__avatar">CM</div>
+                        <div class="testimonio__info">
+                            <span class="testimonio__name">Camila M.</span>
+                            <span class="testimonio__date">hace 3 semanas</span>
+                        </div>
+                    </div>
+                    <div class="testimonio__stars">★★★★★</div>
+                    <p class="testimonio__text">"Fuimos a desayunar con mis amigas, muy buena atención de parte de las empleadas. La carrot cake es muy húmeda, excelente sabor. El sándwich de chipa otro 10/10. Si van, recomiendo mucho la carrot y la cookie red velvet."</p>
+                </div>
+                <div class="testimonio animate-in">
+                    <div class="testimonio__header">
+                        <div class="testimonio__avatar">LR</div>
+                        <div class="testimonio__info">
+                            <span class="testimonio__name">Lucas R.</span>
+                            <span class="testimonio__date">hace 1 mes</span>
+                        </div>
+                    </div>
+                    <div class="testimonio__stars">★★★★★</div>
+                    <p class="testimonio__text">"Excelente café de especialidad. Las cookies y medialunas excepcionales. Para llevar o comer en el lugar, con un bello ambiente con plantas y flores. Recomiendo!"</p>
+                </div>
+                <div class="testimonio animate-in">
+                    <div class="testimonio__header">
+                        <div class="testimonio__avatar">PS</div>
+                        <div class="testimonio__info">
+                            <span class="testimonio__name">Patricia S.</span>
+                            <span class="testimonio__date">hace 2 semanas</span>
+                        </div>
+                    </div>
+                    <div class="testimonio__stars">★★★★★</div>
+                    <p class="testimonio__text">"Hermoso todo! La comida me sorprendió para bien, es exquisito todo. El café también excelente, lo vi probando el espresso en el momento, cosa que varias cafeterías de especialidad lo tienen muy descuidado."</p>
+                </div>
+                <div class="testimonio animate-in">
+                    <div class="testimonio__header">
+                        <div class="testimonio__avatar">MG</div>
+                        <div class="testimonio__info">
+                            <span class="testimonio__name">Martín G.</span>
+                            <span class="testimonio__date">hace 1 semana</span>
+                        </div>
+                    </div>
+                    <div class="testimonio__stars">★★★★½</div>
+                    <p class="testimonio__text">"El lugar es pequeño pero acogedor. Pedimos el scon de queso azul y el sándwich de chipa. Porciones abundantes y de calidad. Sin duda volveremos."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Historia -->
+    <section class="historia" id="historia">
+        <div class="historia__inner">
+            <div class="historia__image animate-in">
+                <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl7_Snyg80hkOiOjQQJABRp4RRPlFJAs17oRn62Sl64fhfHRJLNKA_d94cxKfF1iUdLEC5pdjoR0Z9LvfcJ3mdC6uW7dTiHj3N5ZiMOOzQ4MvQ4yB-ODwx-IIAL-hRDZY04uro=s1360-w1360-h1020-rw" alt="La Chatita Cafetería" loading="lazy">
+            </div>
+            <div class="historia__content animate-in">
+                <span class="historia__kicker">Nuestra historia</span>
+                <h2 class="historia__title">De una idea en Palermo a tu café favorito.</h2>
+                <p class="historia__text">La Chatita nació de la convicción de que un café de barrio puede ser también un café de especialidad. Sin pretensiones, sin pretenciosidad — solo buen café, bakery hecho en el día y un lugar donde la gente se sienta como en casa.</p>
+                <p class="historia__text">Los dueños están en la barra, te conocen el pedido, te preguntan cómo estuvo la semana. La Chatita es eso: un café que se toma con calma, en un rincón de Palermo Norte que se siente tuyo desde la primera visita.</p>
+                <div class="historia__team">
+                    <div class="historia__member">
+                        <div class="historia__avatar">LC</div>
+                        <div class="historia__member-info">
+                            <span class="historia__member-name">Los dueños</span>
+                            <span class="historia__member-role">Fundadores & Baristas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="contacto" id="contacto">
+        <div class="container">
+            <div class="contacto__grid">
+                <div class="contacto__info animate-in">
+                    <span class="contacto__kicker">Contacto</span>
+                    <h2 class="contacto__title">Vení a conocernos.</h2>
+                    <div class="contacto__details">
+                        <div class="contacto__detail">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            <div>
+                                <span class="contacto__detail-label">Dirección</span>
+                                <span class="contacto__detail-value">El Salvador 4068, Palermo Norte<br>C1175 Cdad. Autónoma de Buenos Aires</span>
+                            </div>
+                        </div>
+                        <div class="contacto__detail">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                            <div>
+                                <span class="contacto__detail-label">WhatsApp</span>
+                                <a href="https://wa.me/5491123004181" class="contacto__detail-value" target="_blank" rel="noopener">011 2300-4181</a>
+                            </div>
+                        </div>
+                        <div class="contacto__detail">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12 6 12 12 16 14"/>
+                            </svg>
+                            <div>
+                                <span class="contacto__detail-label">Horarios</span>
+                                <span class="contacto__detail-value">Lun a Vie: 8:00 – 20:00<br>Sáb y Dom: 10:00 – 20:00</span>
+                            </div>
+                        </div>
+                        <div class="contacto__detail">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                            </svg>
+                            <div>
+                                <span class="contacto__detail-label">Instagram</span>
+                                <a href="https://www.instagram.com/lachatita.cafe" class="contacto__detail-value" target="_blank" rel="noopener">@lachatita.cafe</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contacto__form-wrapper animate-in">
+                    <h3 class="contacto__form-title">Hacé tu pedido por WhatsApp</h3>
+                    <form class="contacto__form" id="whatsappForm">
+                        <div class="form__group">
+                            <label class="form__label" for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" class="form__input" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="form__group">
+                            <label class="form__label" for="pedido">¿Qué querés pedir?</label>
+                            <select id="pedido" name="pedido" class="form__input form__select">
+                                <option value="">Elegí una opción</option>
+                                <option value="Café de especialidad">Café de especialidad</option>
+                                <option value="Desayuno/Merienda">Desayuno o Merienda</option>
+                                <option value="Bakery/Cookies">Bakery o Cookies</option>
+                                <option value="Sándwiches">Sándwiches</option>
+                                <option value="Bebidas frías">Bebidas frías</option>
+                                <option value="Otro">Otro</option>
+                            </select>
+                        </div>
+                        <div class="form__group">
+                            <label class="form__label" for="mensaje">Mensaje (opcional)</label>
+                            <textarea id="mensaje" name="mensaje" class="form__input form__textarea" placeholder="Ej: Quiero 2 flat white y 1 cookie red velvet" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+                            </svg>
+                            Enviar por WhatsApp
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="contacto__map animate-in">
+                <iframe
+                    src="https://maps.google.com/maps?q=El+Salvador+4068+Palermo+Norte+Buenos+Aires&output=embed"
+                    width="100%"
+                    height="350"
+                    style="border:0;"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Ubicación de La Chatita Cafetería">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__brand">
+                    <span class="footer__logo">La Chatita</span>
+                    <span class="footer__tagline">Café de Especialidad</span>
+                </div>
+                <div class="footer__links">
+                    <a href="https://www.instagram.com/lachatita.cafe" target="_blank" rel="noopener" class="footer__social">Instagram</a>
+                    <a href="https://wa.me/5491123004181" target="_blank" rel="noopener" class="footer__social">WhatsApp</a>
+                </div>
+                <div class="footer__copy">
+                    <span>&copy; 2026 La Chatita Cafetería. Todos los derechos reservados.</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/5491123004181?text=Hola! Quiero hacer un pedido en La Chatita" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+    </a>
+
+    <script src="./script.js"></script>
+</body>
+</html>
